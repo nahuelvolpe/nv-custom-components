@@ -14,7 +14,7 @@
   "license": "MIT",
   "homepage": "https://nahuelvolpe.github.io/sb-components/",
   "repository": {
-    "url": "https://TODO",
+    "url": "https://github.com/nahuelvolpe/nv-custom-components",
     "type": "git"
   },
   "files": [
@@ -37,7 +37,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "clean": "rimraf dist/",
-    "copyfiles": "copyfiles -u 1 src/**/*.css dist/"
+    "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
+    "push:npm": "np"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.2.25",
