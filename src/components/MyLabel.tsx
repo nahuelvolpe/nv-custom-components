@@ -1,7 +1,6 @@
 import "./MyLabel.css";
-import { AllCaps } from "../stories/MyLabel.stories";
 
-interface IMyLabelProps {
+export interface IMyLabelProps {
   /**
    * Text to display
    */
